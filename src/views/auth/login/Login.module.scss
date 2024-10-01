@@ -1,3 +1,5 @@
+@import "@/styles/colors.scss";
+
 .login{
     display: flex;
     flex-direction: column;
@@ -5,4 +7,5 @@
     justify-content: center;
     gap: 16px;
     height: 100vh;
+    background-color: map-get($schema,primary);
 }
